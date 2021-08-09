@@ -1,0 +1,74 @@
+.form-control {
+}
+
+.form-input {
+  font-size: 1.2rem;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.form-input label {
+  display: block;
+}
+
+.form-input input {
+  padding: 13px;
+  width: 97%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin: 8px 0;
+  outline: none;
+  font-size: 1rem;
+}
+
+.input-error {
+  margin: 0;
+  color: red;
+  padding-left: 16px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.btn-control {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.btn-control button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  color: #8a2b06;
+}
+
+.btn-control .btn-order {
+  font: inherit;
+  cursor: pointer;
+  background-color: #8a2b06;
+  padding: 0.5rem 2rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.btn-control .btn-order:hover {
+  background-color: #b64113;
+}
+
+.btn-control button:disabled {
+  background: #ccc !important;
+  border: none;
+  cursor: unset;
+}
